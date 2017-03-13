@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.practice.coupondisplayview.views.CouponDisplayView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:layout_margin="10dp"
+    android:background="@android:color/holo_orange_light"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="match_parent"
+        android:src="@mipmap/ic_launcher"
+        android:scaleType="centerCrop"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="美食卷"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@android:color/darker_gray"
+            android:text="编号:20030103012"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@android:color/darker_gray"
+            android:text="编号:20030103012"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@android:color/darker_gray"
+            android:text="编号:20030103012"
+            />
+
+
+    </LinearLayout>
+
+
+</com.practice.coupondisplayview.views.CouponDisplayView>
